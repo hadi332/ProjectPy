@@ -1,7 +1,7 @@
 #Problem 13:File Word Count
 #Write a program that reads a text file and counts the occurrences of each word.
 
-with open('https://raw.githubusercontent.com/hadi332/Solved-Problems/main/text.txt') as file:
+with open('text.txt') as file:
     content = file.read()
     print(content)
 
