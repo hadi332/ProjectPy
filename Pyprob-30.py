@@ -9,7 +9,7 @@ def pascal_traingle(num):
 
         for j in range(1,i):
             row[j] = triangle[i-1][j-1]+triangle[i-1][j]
-            print(row)
+            print(row) # to check on each row how it is incremented
         triangle.append(row)
 
     return triangle
