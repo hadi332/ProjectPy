@@ -1,4 +1,4 @@
-#Problem 34: Pascal's Triangle
+#Problem 30: Pascal's Triangle
 #Write a program that generates Pascal's Triangle up to a specified number of rows.
 
 def pascal_traingle(num):
